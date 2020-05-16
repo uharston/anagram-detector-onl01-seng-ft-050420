@@ -16,22 +16,19 @@ class Anagram
   #Use .split("") to convert a each letter in a string into
   #an element in an array
   #Use .sort to arrange the strings elements in  comparable order
+  #make an array that will recieve the results of the test and be returned
   #%w(desserts tacobar creperie kayak) is a shortcut for
   #writing arrays with spaces as the delimiter instead of commas
   def match(anagram_array)
     result = []
     anagram_array.each do |compare|
-    if self.word.split("").sort == compare.split("").sort
-      result << compare
-
-    else
-      []
-# binding.pry
-end
-
-
-end
-result
+      if self.word.split("").sort == compare.split("").sort
+        result << compare
+      else
+        []
+      end
+    end
+    result
   end
 
 end
