@@ -24,7 +24,7 @@ class Anagram
       %w(compare)
     else
       []
-binding.pry
+# binding.pry
 end
 
 end
