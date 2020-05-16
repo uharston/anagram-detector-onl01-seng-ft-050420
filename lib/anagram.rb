@@ -13,7 +13,7 @@ class Anagram
   #Check if self.word has a matching anagrams
   #How do we compare self.word to an array of strings - iterate
   #How to compare a string to each string in an array
-  #Use .split("") to convert a each letter in a string into 
+  #Use .split("") to convert a each letter in a string into
   #an element in an array
   #Use .sort to arrange the strings elements in  comparable order
   #%w(desserts tacobar creperie kayak) is a shortcut for
@@ -22,11 +22,11 @@ class Anagram
     anagram_array.each do |compare|
     if self.word.split("").sort == compare.split("").sort
       %w(compare)
-    else 
+    else
       []
 binding.pry
 end
-      
+
 end
   end
 
