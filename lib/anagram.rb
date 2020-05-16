@@ -15,11 +15,11 @@ class Anagram
   #How to compare a string to each string in an array
   #%w(desserts tacobar creperie kayak) is a shortcut for
   #writing arrays with spaces as the delimiter instead of commas
-#   def match(anagram_array)
+  def match(anagram_array)
 #     anagram_array.each do |compare|
 # binding.pry
 #       self.word
-#   end
+  end
 
 end
 
