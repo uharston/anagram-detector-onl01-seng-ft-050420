@@ -28,7 +28,7 @@ class Anagram
       []
 # binding.pry
 end
-result 
+result
 
 end
   end
