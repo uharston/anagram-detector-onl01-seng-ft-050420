@@ -12,11 +12,11 @@ class Anagram
   #Check if self.word has a matching anagrams
   #How do we compare self.word to an array of strings - iterate
   #How to compare a string to each string in an array
-  #%w(desserts tacobar creperie kayak) is a shortcut for 
+  #%w(desserts tacobar creperie kayak) is a shortcut for
   #writing arrays with spaces as the delimiter instead of commas
   def match(anagram_array)
     anagram_array.each do |compare|
-      
+
       self.word
   end
 
