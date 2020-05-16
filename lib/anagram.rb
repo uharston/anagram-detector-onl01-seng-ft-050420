@@ -19,14 +19,16 @@ class Anagram
   #%w(desserts tacobar creperie kayak) is a shortcut for
   #writing arrays with spaces as the delimiter instead of commas
   def match(anagram_array)
+    result = []
     anagram_array.each do |compare|
     if self.word.split("").sort == compare.split("").sort
-      %w(compare)
+      result << compare
       binding.pry
     else
       []
 # binding.pry
 end
+result 
 
 end
   end
