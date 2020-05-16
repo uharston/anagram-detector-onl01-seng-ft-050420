@@ -23,4 +23,4 @@ binding.pry
 
 end
 
-listen = Anagram.new("listen")
+# listen = Anagram.new("listen")
