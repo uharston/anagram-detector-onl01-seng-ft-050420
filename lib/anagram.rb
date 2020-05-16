@@ -23,7 +23,7 @@ class Anagram
     anagram_array.each do |compare|
     if self.word.split("").sort == compare.split("").sort
       result << compare
-  
+
     else
       []
 # binding.pry
