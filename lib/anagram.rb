@@ -16,7 +16,7 @@ class Anagram
   #writing arrays with spaces as the delimiter instead of commas
   def match(anagram_array)
     anagram_array.each do |compare|
-
+binding.pry
       self.word
   end
 
