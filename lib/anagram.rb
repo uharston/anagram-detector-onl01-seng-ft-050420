@@ -1,3 +1,4 @@
+require 'pry'
 # Your code goes here!
 class Anagram
   #setter assigns an instance a value
